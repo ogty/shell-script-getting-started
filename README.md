@@ -95,7 +95,7 @@ read -p 'Name: ' USERNAME
 ```sh
 while IFS="" read MYLINE
 do
-  echo "$MYLINE"
+    echo "$MYLINE"
 done < "somefile.txt"
 ```
 
@@ -129,9 +129,9 @@ Command conditional(`cmd` will return `0` if success)
 ```sh
 if cmd
 then 
-  some cmds
+    some cmds
 else
-  other cmds
+    other cmds
 fi
 ```
 
@@ -140,7 +140,7 @@ File and numeric conditionals
 ```sh
 if [[ -e $FILENAME ]]
 then
-  echo $FILENAME exists
+    echo $FILENAME exists
 fi
 ```
 
@@ -164,8 +164,8 @@ fi
 i=0
 while (( i < 1000 ))
 do
-  echo $i
-  let i++
+    echo $i
+    let i++
 done
 ```
 
@@ -176,7 +176,7 @@ Numerical looping
 ```sh
 for ((i=0; i < 1000; i++))
 do
-  echo $i
+    echo $i
 done
 ```
 
@@ -185,7 +185,7 @@ Iterating over a list
 ```sh
 for VAL in 20 3 dog 7
 do
-  echo $VAL
+    echo $VAL
 done
 ```
 
@@ -193,16 +193,16 @@ done
 
 ```sh
 case $MYVAR in
-  "carl")
-    echo 'Hi Carl!'
-    ;;
-  "Paul")
-    echo 'Hi Paul!'
-    ;;
-  *) # default
-    echo 'Goodbye'
-    exit
-    ;;
+    "carl")
+        echo 'Hi Carl!'
+        ;;
+    "Paul")
+        echo 'Hi Paul!'
+        ;;
+    *) # default
+        echo 'Goodbye'
+        exit
+        ;;
 esac
 ```
 
@@ -213,8 +213,8 @@ Declaring a function
 ```sh
 function myfun ()
 {
-  # function body
-  echo 'This is myfunc()'
+    # function body
+    echo 'This is myfunc()'
 }
 ```
 
