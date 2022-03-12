@@ -2,17 +2,17 @@
 
 ## Contents
 
-- [Output]()
-- [Format Strings]()
-- [Positional Parameters]()
-- [User Input]()
-- [Reading File]()
-- [Variables]()
-- [If Statements]()
-- [While Loop]()
-- [For Loop]()
-- [Case Statement]()
-- [Functions]()
+- [Output](https://github.com/ogty/shell-script-gs/blob/master/README.md#output)
+- [Format Strings](https://github.com/ogty/shell-script-gs/blob/master/README.md#format-strings)
+- [Positional Parameters](https://github.com/ogty/shell-script-gs/blob/master/README.md#positional-parameters)
+- [User Input](https://github.com/ogty/shell-script-gs/blob/master/README.md#user-input)
+- [Reading File](https://github.com/ogty/shell-script-gs/blob/master/README.md#reading-file)
+- [Variables](https://github.com/ogty/shell-script-gs/blob/master/README.md#variables)
+- [If Statements](https://github.com/ogty/shell-script-gs/blob/master/README.md#if-statements)
+- [While Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#while-loop)
+- [For Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#for-loop)
+- [Case Statement](https://github.com/ogty/shell-script-gs/blob/master/README.md#case-statement)
+- [Functions](https://github.com/ogty/shell-script-gs/blob/master/README.md#functions)
 
 ---
 
