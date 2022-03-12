@@ -28,7 +28,7 @@ shift
 type -t "$THEAPP" >/dev/null || usagexit
 
 declare -i i
-for ((i = 0; $#; i++))
+for ((i=0; $#; i++))
 do
     ALIST+=( "$1" )
     if [[ $1 == '?' ]]
@@ -42,7 +42,7 @@ MAX=10000
 FUZONE="a"
 FUZARG=""
 
-for ((i = 1; i <= MAX; i++))
+for ((i=1; i <= MAX; i++))
 do
     FUZARG="${FUZARG}${FUZONE}"
     ALIST[$NDX]="$FUZARG"

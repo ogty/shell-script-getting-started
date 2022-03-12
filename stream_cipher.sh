@@ -20,7 +20,7 @@ source ./askey.sh
 function Ncrypt ()
 {
     TXT="$1"
-    for((i=0; i< ${#TXT}; i++))
+    for((i=0; i < ${#TXT}; i++))
     do
         CHAR="${TXT:i:1}"
         RAW=$(asnum "$CHAR")
@@ -39,7 +39,7 @@ function Ncrypt ()
 function Dcrypt ()
 {
     TXT="$1"
-    for((i=0; i< ${#TXT}; i=i+2))
+    for((i=0; i < ${#TXT}; i=i+2))
     do
 	    CHAR="0x${TXT:i:2}"
 	    RAW=$(( $CHAR ))
