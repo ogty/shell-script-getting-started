@@ -51,22 +51,22 @@ printf 'Hello, world!'
 
 Format strings for `printf`
 
-- %s : String
-- %d : Decimal
-- %f : Floating point
-- %x : Hexadecimal
-- \n : Newline
-- \r : Carriage return
-- \t : Horizontal tab
+- `%s` : String
+- `%d` : Decimal
+- `%f` : Floating point
+- `%x` : Hexadecimal
+- `\n` : Newline
+- `\r` : Carriage return
+- `\t` : Horizontal tab
 
 ### Positional Parameters
 
 Script parameters
 
-- $# : Number of parameters
-- $0 : Name of the script
-- $1 : First parameter
-- $2 : Second parameter ...
+- `$#` : Number of parameters
+- `$0` : Name of the script
+- `$1` : First parameter
+- `$2` : Second parameter ...
 
 Default parameters
 
@@ -246,140 +246,140 @@ myfun param1 param2
 
 Search the contens of file
 
-- -c : Count matching lines
-- -E : Enable extended regex
-- -i : Ignore case
-- -P : Enable Perl regex
-- -R : Recursively search
+- `-c` : Count matching lines
+- `-E` : Enable extended regex
+- `-i` : Ignore case
+- `-P` : Enable Perl regex
+- `-`R : Recursively search
 
 ### find
 
 Search the system for files
 
-- -exec : Execute specified command for each file found
-- -name : Search by filename
-- -size : Search by file size
-- -type : Search by file type
+- `-exec` : Execute specified command for each file found
+- `-name` : Search by filename
+- `-size` : Search by file size
+- `-type` : Search by file type
 
 ### file
 
 Identify file type by magic number
 
-- -f : Read list from specified file
-- -k : List all type matches
-- -z : Look inside compressed files
+- `-f` : Read list from specified file
+- `-k` : List all type matches
+- `-z` : Look inside compressed files
 
 ### cut
 
 Extract portions of data from a file
 
-- -c : Character(s) to extract
-- -d : Field delimiter
-- -f : Field(s) to extract
+- `-c` : Character(s) to extract
+- `-d` : Field delimiter
+- `-f` : Field(s) to extract
 
 ### head
 
 Output the first few lines/bytes of file
 
-- -n : Number of lines to output
-- -c : Number of bytes to output
+- `-n` : Number of lines to output
+- `-c` : Number of bytes to output
 
 ### tail
 
 Output the last few lines of a file
 
-- -f : Continuously monitor end of file
-- -n : Number of lines to output
+- `-f` : Continuously monitor end of file
+- `-n` : Number of lines to output
 
 ### sort
 
 Order the lines of a file
 
-- -r : Sort in descending order
-- -f : Ignore case
-- -n : Use numerical ordering
-- -k : Sort based on key
-- -o : Write output to file
+- `-r` : Sort in descending order
+- `-f` : Ignore case
+- `-n` : Use numerical ordering
+- `-k` : Sort based on key
+- `-o` : Write output to file
 
 ### xxd
 
 Desplay file in binary or hexadecimal
 
-- -b : Display using binary rather than hex
-- -l : Print specified number of bytes
-- -s : Start printing at specified position
+- `-b` : Display using binary rather than hex
+- `-l` : Print specified number of bytes
+- `-s` : Start printing at specified position
 
 ### wevtutil
 
 View and manage Windows logs
 
-- el : Enumerate available logs
-- qe : Query a log's events
-- /c : Specify max number of events
-- /f : Format output as XML
-- /rd : Read direction, if true read most recent first
+- `el` : Enumerate available logs
+- `qe` : Query a log's events
+- `/c` : Specify max number of events
+- `/f` : Format output as XML
+- `/rd` : Read direction, if true read most recent first
 
 ### uniq 
 
 Remove duplicate lines from a file
 
-- -c : Print number of times line is repeated
-- -f : Ignore the specified number of fields
-- -i : Ignore case
+- `-c` : Print number of times line is repeated
+- `-f` : Ignore the specified number of fields
+- `-i` : Ignore case
 
 ### join
 
 Combine two files
 
-- -j : Join using specified field
-- -t : Field delimiter
+- `-j` : Join using specified field
+- `-t` : Field delimiter
 
 ### sdiff
 
 Compare two files
 
-- -a : Treat files as text
-- -i : Ignore case
-- -s : Suppress common lines
-- -w : Max characters to output per line
+- `-a` : Treat files as text
+- `-i` : Ignore case
+- `-s` : Suppress common lines
+- `-w` : Max characters to output per line
 
 ### base64
 
 Encode/decode data using Base64
 
-- -d : Decode
+- `-d` : Decode
 
 ### curl
 
 Network data transfer
 
-- -A : Specify user agent
-- -d : Send using HTTP POST
-- -G : Send using HTTP GET
-- -I : Only fetch header
-- -L : Follow redirects
-- -s : Do not show errors
+- `-A` : Specify user agent
+- `-d` : Send using HTTP POST
+- `-G` : Send using HTTP GET
+- `-I` : Only fetch header
+- `-L` : Follow redirects
+- `-s` : Do not show errors
 
 ### vi commands
 
-- b : Back one word
-- cc : Replace current line
-- cw : Replace current word
-- dw : Delete current word
-- dd : Delete current line
-- w : Forward one word
-- :q! : Quit without save
-- :wq : Quit with save
-- / : Search forward
-- ? : Search backward
-- n : Find next occurrence
+- `b` : Back one word
+- `cc` : Replace current line
+- `cw` : Replace current word
+- `dw` : Delete current word
+- `dd` : Delete current line
+- `w` : Forward one word
+- `:q!` : Quit without save
+- `:wq` : Quit with save
+- `/` : Search forward
+- `?` : Search backward
+- `n` : Find next occurrence
 
 ### tr
 
 Translate one character to another
 
-- -d : Delete character
-- -s : Squeeze repeated characters
+- `-d` : Delete character
+- `-s` : Squeeze repeated characters
 
 ---
 
