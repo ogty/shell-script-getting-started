@@ -2,19 +2,23 @@
 
 ## Contents
 
-- [Output](https://github.com/ogty/shell-script-gs/blob/master/README.md#output)
-- [Format Strings](https://github.com/ogty/shell-script-gs/blob/master/README.md#format-strings)
-- [Positional Parameters](https://github.com/ogty/shell-script-gs/blob/master/README.md#positional-parameters)
-- [User Input](https://github.com/ogty/shell-script-gs/blob/master/README.md#user-input)
-- [Reading a File](https://github.com/ogty/shell-script-gs/blob/master/README.md#reading-a-file)
-- [Variables](https://github.com/ogty/shell-script-gs/blob/master/README.md#variables)
-- [If Statements](https://github.com/ogty/shell-script-gs/blob/master/README.md#if-statements)
-- [While Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#while-loop)
-- [For Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#for-loop)
-- [Case Statement](https://github.com/ogty/shell-script-gs/blob/master/README.md#case-statement)
-- [Functions](https://github.com/ogty/shell-script-gs/blob/master/README.md#functions)
+- [Getting Started](https://github.com/ogty/shell-script-gs/blob/master/README.md#getting-started)
+  - [Output](https://github.com/ogty/shell-script-gs/blob/master/README.md#output)
+  - [Format Strings](https://github.com/ogty/shell-script-gs/blob/master/README.md#format-strings)
+  - [Positional Parameters](https://github.com/ogty/shell-script-gs/blob/master/README.md#positional-parameters)
+  - [User Input](https://github.com/ogty/shell-script-gs/blob/master/README.md#user-input)
+  - [Reading a File](https://github.com/ogty/shell-script-gs/blob/master/README.md#reading-a-file)
+  - [Variables](https://github.com/ogty/shell-script-gs/blob/master/README.md#variables)
+  - [If Statements](https://github.com/ogty/shell-script-gs/blob/master/README.md#if-statements)
+  - [While Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#while-loop)
+  - [For Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#for-loop)
+  - [Case Statement](https://github.com/ogty/shell-script-gs/blob/master/README.md#case-statement)
+  - [Functions](https://github.com/ogty/shell-script-gs/blob/master/README.md#functions)
+- [Commands](https://github.com/ogty/shell-script-gs/blob/master/README.md#commands)
 
 ---
+
+## Getting Started
 
 ### Output
 
@@ -201,3 +205,24 @@ Invoking a function
 ```
 myfun param1 param2
 ```
+
+---
+
+## Commands
+
+```bash
+$ curl -L -o output.html https://www.oreilly.com
+$ curl -LI https://www.oreilly.com
+$ curl -LIs https://www.oreilly.com | grep '200'
+```
+
+```
+$ sudo apt-get install wget
+$ wget -p -m -k -P ./mirror https://www.digadel.com
+```
+
+| Server/Protocol | Port Number |
+| --- | --- |
+| FTP | TCP 21 |
+| SMTP | TCP 25 |
+| HTTP | TCP 80 |
