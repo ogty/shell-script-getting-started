@@ -15,6 +15,24 @@
   - [Case Statement](https://github.com/ogty/shell-script-gs/blob/master/README.md#case-statement)
   - [Functions](https://github.com/ogty/shell-script-gs/blob/master/README.md#functions)
 - [Commands](https://github.com/ogty/shell-script-gs/blob/master/README.md#commands)
+  - [Regular Expressions](https://github.com/ogty/shell-script-gs/blob/master/README.md#regular-expressions)
+  - [grep](https://github.com/ogty/shell-script-gs/blob/master/README.md#grep)
+  - [find](https://github.com/ogty/shell-script-gs/blob/master/README.md#find)
+  - [file](https://github.com/ogty/shell-script-gs/blob/master/README.md#file)
+  - [cut](https://github.com/ogty/shell-script-gs/blob/master/README.md#cut)
+  - [head](https://github.com/ogty/shell-script-gs/blob/master/README.md#head)
+  - [tail](https://github.com/ogty/shell-script-gs/blob/master/README.md#tail)
+  - [sort](https://github.com/ogty/shell-script-gs/blob/master/README.md#sort)
+  - [xxd](https://github.com/ogty/shell-script-gs/blob/master/README.md#xxd)
+  - [wevtutil](https://github.com/ogty/shell-script-gs/blob/master/README.md#wevtutil)
+  - [uniq](https://github.com/ogty/shell-script-gs/blob/master/README.md#uniq)
+  - [join](https://github.com/ogty/shell-script-gs/blob/master/README.md#join)
+  - [sdiff](https://github.com/ogty/shell-script-gs/blob/master/README.md#sdiff)
+  - [base64](https://github.com/ogty/shell-script-gs/blob/master/README.md#base64)
+  - [curl](https://github.com/ogty/shell-script-gs/blob/master/README.md#curl)
+  - [vi commands](https://github.com/ogty/shell-script-gs/blob/master/README.md#vi-commands)
+  - [tr](https://github.com/ogty/shell-script-gs/blob/master/README.md#tr)
+- [Others](https://github.com/ogty/shell-script-gs/blob/master/README.md#others)
 
 ---
 
@@ -291,7 +309,7 @@ Desplay file in binary or hexadecimal
 - -l : Print specified number of bytes
 - -s : Start printing at specified position
 
-### wevutil
+### wevtutil
 
 View and manage Windows logs
 
