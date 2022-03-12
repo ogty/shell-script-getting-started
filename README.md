@@ -1,5 +1,21 @@
 # Shell Script Getting Started
 
+## Contents
+
+- [Output]()
+- [Format Strings]()
+- [Positional Parameters]()
+- [User Input]()
+- [Reading File]()
+- [Variables]()
+- [If Statements]()
+- [While Loop]()
+- [For Loop]()
+- [Case Statement]()
+- [Functions]()
+
+---
+
 ### Output
 
 Writing to the screen 
