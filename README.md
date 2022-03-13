@@ -260,7 +260,7 @@ Search the contens of file
 - `-E` : Enable extended regex
 - `-i` : Ignore case
 - `-P` : Enable Perl regex
-- `-`R : Recursively search
+- `-R` : Recursively search
 
 ### find
 
