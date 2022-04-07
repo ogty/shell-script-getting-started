@@ -154,19 +154,19 @@ then
 fi
 ```
 
-| File Test | Use |
-| --- | --- |
-| -d | Derectory exists |
-| -e | File exists |
-| -r | File is readable |
-| -w | File is writable |
-| -x | File is executable |
+| File Test | Use                |
+| --------- | ------------------ |
+| -d        | Derectory exists   |
+| -e        | File exists        |
+| -r        | File is readable   |
+| -w        | File is writable   |
+| -x        | File is executable |
 
-| Numeric Test | Use |
-| --- | --- |
-| -eq | Equal |
-| -gt | Greater than |
-| -lt | Less than |
+| Numeric Test | Use          |
+| ------------ | ------------ |
+| -eq          | Equal        |
+| -gt          | Greater than |
+| -lt          | Less than    |
 
 ### While Loop
 
@@ -240,17 +240,17 @@ myfun param1 param2
 
 ### Regular Expressions
 
-| Character | Meaning |
-| --- | --- |
-| . | Single wildcard character |
-| ? | Preceding item is optional |
-| * | Match the preceding item zero or more times |
-| + | Match the preceding item one or more times |
-| ^ | Anchor pattern to the beginning of the string |
-| $ | Anchor pattern to the end of the string |
-| [ ] | Character classes and ranges |
-| ( ) | Group |
-| { } | Quantifier |
+| Character | Meaning                                       |
+| --------- | --------------------------------------------- |
+| .         | Single wildcard character                     |
+| ?         | Preceding item is optional                    |
+| \*        | Match the preceding item zero or more times   |
+| +         | Match the preceding item one or more times    |
+| ^         | Anchor pattern to the beginning of the string |
+| $         | Anchor pattern to the end of the string       |
+| [ ]       | Character classes and ranges                  |
+| ( )       | Group                                         |
+| { }       | Quantifier                                    |
 
 ### grep
 
@@ -407,7 +407,7 @@ $ wget -p -m -k -P ./mirror https://www.digadel.com
 ```
 
 | Server/Protocol | Port Number |
-| --- | --- |
-| FTP | TCP 21 |
-| SMTP | TCP 25 |
-| HTTP | TCP 80 |
+| --------------- | ----------- |
+| FTP             | TCP 21      |
+| SMTP            | TCP 25      |
+| HTTP            | TCP 80      |
