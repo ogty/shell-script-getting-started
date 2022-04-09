@@ -8,7 +8,7 @@
     - [Format Strings](https://github.com/ogty/shell-script-gs/blob/master/README.md#format-strings)
     - [Positional Parameters](https://github.com/ogty/shell-script-gs/blob/master/README.md#positional-parameters)
     - [User Input](https://github.com/ogty/shell-script-gs/blob/master/README.md#user-input)
-    - [Reading a File](https://github.com/ogty/shell-script-gs/blob/master/README.md#reading-a file)
+    - [Reading a File](https://github.com/ogty/shell-script-gs/blob/master/README.md#reading-a-file)
     - [Variables](https://github.com/ogty/shell-script-gs/blob/master/README.md#variables)
     - [If Statements](https://github.com/ogty/shell-script-gs/blob/master/README.md#if-statements)
     - [While Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#while-loop)
