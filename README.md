@@ -3,45 +3,35 @@
 ## Contents
 
 - [Getting Started](https://github.com/ogty/shell-script-gs/blob/master/README.md#getting-started)
-  - <details>
-      <summary>. . .</summary>
-      <ul>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#output">Output</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#format-strings">Format Strings</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#positional-parameters">Positional Parameters</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#user-input">User Input</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#reading-a-file">Reading a File</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#variables">Variables</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#if-statements">If Statements</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#while-loop">While Loop</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#for-loop">For Loop</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#case-statement">Case Statement</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#functions">Functions</a></li>
-      </ul>
-    </details>
+  - [Output](https://github.com/ogty/shell-script-gs/blob/master/README.md#output)
+  - [Format Strings](https://github.com/ogty/shell-script-gs/blob/master/README.md#format-strings)
+  - [Positional Parameters](https://github.com/ogty/shell-script-gs/blob/master/README.md#positional-parameters)
+  - [User Input](https://github.com/ogty/shell-script-gs/blob/master/README.md#user-input)
+  - [Reading a File](https://github.com/ogty/shell-script-gs/blob/master/README.md#reading-a-file)
+  - [Variables](https://github.com/ogty/shell-script-gs/blob/master/README.md#variables)
+  - [If Statements](https://github.com/ogty/shell-script-gs/blob/master/README.md#if-statements)
+  - [While Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#while-loop)
+  - [For Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#for-loop)
+  - [Case Statement](https://github.com/ogty/shell-script-gs/blob/master/README.md#case-statement)
+  - [Functions](https://github.com/ogty/shell-script-gs/blob/master/README.md#functions)
 - [Commands](https://github.com/ogty/shell-script-gs/blob/master/README.md#commands)
-  - <details>
-      <summary>. . .</summary>
-      <ul>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#output">Regular Expressions</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#grep">grep</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#find">find</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#file">file</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#cut">cut</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#head">head</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#tail">tail</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#sort">sort</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#xxd">xxd</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#wevtutil">wevtutil</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#uniq">uniq</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#join">join</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#sdiff">sdiff</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#base64">base64</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#curl">curl</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#vi-commands">vi commands</a></li>
-        <li><a href="https://github.com/ogty/shell-script-gs/blob/master/README.md#tr">tr</a></li>
-      </ul>
-    </details>
+  - [Regular Expressions](https://github.com/ogty/shell-script-gs/blob/master/README.md#regular-expressions)
+  - [grep](https://github.com/ogty/shell-script-gs/blob/master/README.md#grep)
+  - [find](https://github.com/ogty/shell-script-gs/blob/master/README.md#find)
+  - [file](https://github.com/ogty/shell-script-gs/blob/master/README.md#file)
+  - [cut](https://github.com/ogty/shell-script-gs/blob/master/README.md#cut)
+  - [head](https://github.com/ogty/shell-script-gs/blob/master/README.md#head)
+  - [tail](https://github.com/ogty/shell-script-gs/blob/master/README.md#tail)
+  - [sort](https://github.com/ogty/shell-script-gs/blob/master/README.md#sort)
+  - [xxd](https://github.com/ogty/shell-script-gs/blob/master/README.md#xxd)
+  - [wevtutil](https://github.com/ogty/shell-script-gs/blob/master/README.md#webtutil)
+  - [uniq](https://github.com/ogty/shell-script-gs/blob/master/README.md#uniq)
+  - [join](https://github.com/ogty/shell-script-gs/blob/master/README.md#join)
+  - [sdiff](https://github.com/ogty/shell-script-gs/blob/master/README.md#sdiff)
+  - [base64](https://github.com/ogty/shell-script-gs/blob/master/README.md#base64)
+  - [curl](https://github.com/ogty/shell-script-gs/blob/master/README.md#curl)
+  - [vi commands](https://github.com/ogty/shell-script-gs/blob/master/README.md#vi-commands)
+  - [tr](https://github.com/ogty/shell-script-gs/blob/master/README.md#tr)
 - [Others](https://github.com/ogty/shell-script-gs/blob/master/README.md#others)
 
 ---
