@@ -289,7 +289,7 @@ View and manage Windows logs
 - `/f` : Format output as XML
 - `/rd` : Read direction, if true read most recent first
 
-### uniq 
+### uniq
 
 Remove duplicate lines from a file
 
