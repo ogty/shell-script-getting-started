@@ -3,21 +3,20 @@
 ## Contents
 
 - [Contents](https://github.com/ogty/shell-script-gs/blob/master/README.md#Contents)
-- [Getting](https://github.com/ogty/shell-script-gs/blob/master/README.md#Getting)
+- [Getting Started](https://github.com/ogty/shell-script-gs/blob/master/README.md#Getting Started)
     - [Output](https://github.com/ogty/shell-script-gs/blob/master/README.md#Output)
-    - [Format](https://github.com/ogty/shell-script-gs/blob/master/README.md#Format)
-    - [Positional](https://github.com/ogty/shell-script-gs/blob/master/README.md#Positional)
-    - [User](https://github.com/ogty/shell-script-gs/blob/master/README.md#User)
-    - [Reading](https://github.com/ogty/shell-script-gs/blob/master/README.md#Reading)
+    - [Format Strings](https://github.com/ogty/shell-script-gs/blob/master/README.md#Format Strings)
+    - [Positional Parameters](https://github.com/ogty/shell-script-gs/blob/master/README.md#Positional Parameters)
+    - [User Input](https://github.com/ogty/shell-script-gs/blob/master/README.md#User Input)
+    - [Reading a File](https://github.com/ogty/shell-script-gs/blob/master/README.md#Reading a File)
     - [Variables](https://github.com/ogty/shell-script-gs/blob/master/README.md#Variables)
-    - [If](https://github.com/ogty/shell-script-gs/blob/master/README.md#If)
-    - [While](https://github.com/ogty/shell-script-gs/blob/master/README.md#While)
-    - [For](https://github.com/ogty/shell-script-gs/blob/master/README.md#For)
-    - [Case](https://github.com/ogty/shell-script-gs/blob/master/README.md#Case)
-- [#](https://github.com/ogty/shell-script-gs/blob/master/README.md##)
+    - [If Statements](https://github.com/ogty/shell-script-gs/blob/master/README.md#If Statements)
+    - [While Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#While Loop)
+    - [For Loop](https://github.com/ogty/shell-script-gs/blob/master/README.md#For Loop)
+    - [Case Statement](https://github.com/ogty/shell-script-gs/blob/master/README.md#Case Statement)
     - [Functions](https://github.com/ogty/shell-script-gs/blob/master/README.md#Functions)
 - [Commands](https://github.com/ogty/shell-script-gs/blob/master/README.md#Commands)
-    - [Regular](https://github.com/ogty/shell-script-gs/blob/master/README.md#Regular)
+    - [Regular Expressions](https://github.com/ogty/shell-script-gs/blob/master/README.md#Regular Expressions)
     - [grep](https://github.com/ogty/shell-script-gs/blob/master/README.md#grep)
     - [find](https://github.com/ogty/shell-script-gs/blob/master/README.md#find)
     - [file](https://github.com/ogty/shell-script-gs/blob/master/README.md#file)
@@ -32,7 +31,7 @@
     - [sdiff](https://github.com/ogty/shell-script-gs/blob/master/README.md#sdiff)
     - [base64](https://github.com/ogty/shell-script-gs/blob/master/README.md#base64)
     - [curl](https://github.com/ogty/shell-script-gs/blob/master/README.md#curl)
-    - [vi](https://github.com/ogty/shell-script-gs/blob/master/README.md#vi)
+    - [vi commands](https://github.com/ogty/shell-script-gs/blob/master/README.md#vi commands)
     - [tr](https://github.com/ogty/shell-script-gs/blob/master/README.md#tr)
 - [Others](https://github.com/ogty/shell-script-gs/blob/master/README.md#Others)
 
@@ -321,7 +320,7 @@ View and manage Windows logs
 - `/f` : Format output as XML
 - `/rd` : Read direction, if true read most recent first
 
-### uniq 
+### uniq
 
 Remove duplicate lines from a file
 
