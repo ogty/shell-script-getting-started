@@ -304,7 +304,7 @@ Order the lines of a file
 
 ### xxd
 
-Desplay file in binary or hexadecimal
+Display file in binary or hexadecimal
 
 - `-b` : Display using binary rather than hex
 - `-l` : Print specified number of bytes
